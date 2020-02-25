@@ -5,7 +5,11 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "test": "mocha"
   },
-  "author": "Aleksey Esev"
+  "author": "Aleksey Esev",
+  "devDependencies": {
+    "mocha": "7.0.0-esm1"
+  }
 }
